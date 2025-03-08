@@ -1,4 +1,4 @@
-Description:  This template deploys a se bucket and creates a Glue IAM service role of the AWS Glue Course by Johnny Chivers
+Description:  This template deploys a se bucket and creates a Glue IAM service role of the AWS Glue and Lambda Course by Prof. Reza based on a tutorial by Johnny Chivers.
 Parameters:
   S3BucketForCourse: 
     Description: Please enter the name for your S3 bucket. This will used throughout the "course" and must be unique globablly within AWS. 
@@ -11,7 +11,7 @@ Resources:
       BucketName: !Ref S3BucketForCourse
       Tags:
         - Key: "course"
-          Value: "AWSGlueJohnnyChivers"
+          Value: "AWSGlueProfReza"
 
   GlueIAMRole:
     Type: AWS::IAM::Role
@@ -94,7 +94,7 @@ Resources:
     Type: AWS::Athena::WorkGroup
     Properties:
       Name: AWSGlueCourseAthenaWorkgroup
-      Description: The workgroup for the johnny chivers aws glue course. 
+      Description: The workgroup for the Prof. Reza aws glue and lambda course. 
       State: ENABLED
       WorkGroupConfiguration:
         BytesScannedCutoffPerQuery: 200000000
