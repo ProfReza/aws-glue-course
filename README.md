@@ -2,23 +2,23 @@
 
 # Introduction 
 
-This GitHub Repo contains the code alongside explanations for this [youtube video](). 
+This GitHub Repo contains the code alongside explanations for this online course [to be made]. 
 
-The youtube video is a tutoral through the updated AWS Glue Service on the AWS Console UI. The video and rep will cover; 
-- What is AWS Glue? 
-- Why do we Use AWS Glue? 
-- Setup Work For The Tutorial
-- AWS Glue Data Catalog
-- AWS Glue Databases 
-- AWS Glue Tables 
-- Partitions in AWS
-- AWS Glue Crawlers 
-- AWS Glue Connections 
-- AWS Glue ETL 
-- AWS Glue Data Quality 
-- AWS Glue Data Brew
-- AWS Glue Triggers
-- AWS Glue Workflows 
+The course provides a hands-on tutorial on leveraging AWS Glue and AWS Lambda for automated ETL workflows. The course covers:
+- What is AWS Glue?
+- Why use AWS Glue for ETL processes?
+- Setting up AWS Glue in your AWS account
+- AWS Glue Data Catalog and metadata management
+- Creating AWS Glue Databases and Tables
+- Understanding and managing Partitions in AWS Glue
+- Configuring and running AWS Glue Crawlers
+- Integrating AWS Glue with AWS Lambda for automation
+- Building and executing AWS Glue ETL jobs
+- Using AWS Lambda to trigger AWS Glue jobs
+- Best practices for AWS Glue and Lambda integration
+- Validating and querying transformed data in Amazon Redshift
+
+By the end of this course, participants will be able to design and deploy a fully automated data processing pipeline using AWS services.
 
 # Data 
 Below is the schema for the table that wil be created in the Glue Data Catalog which includes a sample of the data.
