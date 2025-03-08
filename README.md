@@ -119,10 +119,9 @@ AWS Glue can write output files in several data formats. Each job type may suppo
 
 # Creators
 
-**Prof. Reza**
+**Prof. Reza,**
 **Johnny Chivers**
 
-# Useful Links
 
 - [youtube video](https://youtu.be/ZvJSaioPYyo) 
 - [website](https://www.johnnychivers.co.uk)
