@@ -2,7 +2,7 @@
 
 # Introduction 
 
-This GitHub Repo contains the code alongside explanations for this [youtube video](https://youtu.be/ZvJSaioPYyo). 
+This GitHub Repo contains the code alongside explanations for this [youtube video](). 
 
 The youtube video is a tutoral through the updated AWS Glue Service on the AWS Console UI. The video and rep will cover; 
 - What is AWS Glue? 
@@ -119,9 +119,8 @@ AWS Glue can write output files in several data formats. Each job type may suppo
 
 # Creators
 
+**Prof. Reza**
 **Johnny Chivers**
-
-- <https://github.com/johnny-chivers/>
 
 # Useful Links
 
